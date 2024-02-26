@@ -445,7 +445,7 @@ body{
     color: var(--on-surface-variant);
 }
 
-.search-view .search-item .item-link{
+.search-view .view-item .item-link{
     position: absolute;
     inset: 0;
     box-shadow: none;
