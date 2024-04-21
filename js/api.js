@@ -21,7 +21,7 @@ export const url = {
     },
 
     reverseGeo(lat, lon){
-        return `http://api.openweathermap.org/geo/1.0/reverse?${lat}&${lon}&limit=5`
+        return `http://api.openweathermap.org/geoapi_key/1.0/reverse?${lat}&${lon}&limit=5`
     },
 
     geo(query){
